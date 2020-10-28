@@ -1,3 +1,9 @@
-import cipher from './cipher.js';
+import { encode } from './cipher.js';
 
-console.log(cipher);
+let numberOffset = document.getElementById("numberOffset");
+
+let text = document.getElementById("text");
+
+console.log(number);
+
+//aqui tudo que chama ou coloca no HMTL
