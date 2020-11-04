@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Bangers', cursive;
-    background-image: linear-gradient(#b33d5dbe, #3e96b3be), url(./img/comp.png) ;
+    background-image: linear-gradient(#b33d5dbe, #3e96b3be,  #3e96b3be), url(./img/comp.png) ;
 }
 
 h1 {
@@ -15,12 +15,17 @@ h1 {
 main {
     display: flex;
     height: 100%;
+    width: 100%;
     justify-content: space-around;
+}
+
+form {
+    width: 100%;
 }
 
 h2 {
     padding: 10px;
-    text-shadow: 3px 3px 3px #ff668f;
+    text-shadow: 3px 3px 3px #4db2ffbe;
 }
 
 label {
@@ -40,7 +45,14 @@ input, select {
     background-color: #fff459ea;
     border-radius: 10%;
     width: 50%;
-    margin: 2%
+}
+
+.container-encode {
+    margin: 2% 2% 2% 5%; 
+}
+
+.container-decode {
+    margin: 2% 5% 2% 2%; 
 }
 
 .write-message, .read-message, .offset-encode, .offset-decode {
@@ -48,4 +60,8 @@ input, select {
     flex-direction: column;
     align-items: center;
     margin: 1%;
+}
+
+button {
+    margin: 10px;
 }
