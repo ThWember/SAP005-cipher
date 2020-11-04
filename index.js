@@ -1,19 +1,26 @@
-let insertedTextEncode = document.getElementById("inserted-text-encode").value;
-let numberOffsetEncode = document.getElementById("number-offset-encode").value;
-let cipherText;
+// let insertedTextEncode = document.getElementById("inserted-text-encode").value.toUpperCase();
+// let numberOffsetEncode = document.getElementById("number-offset-encode").valueAsNumber;
+// let cipherText = "";
 
-let insertedTextDecode = document.getElementById("inserted-text-decode").value;
-let numberOffsetDecode = document.getElementById("number-offset-decode").value;
-let decipherText;
+// let insertedTextDecode = document.getElementById("inserted-text-decode").value.toUpperCase();
+// let numberOffsetDecode = document.getElementById("number-offset-decode").valueAsNumber;
+// let decipherText;
 
-function encode () {
+
+function encode() {
+    let insertedTextEncode = document.getElementById("inserted-text-encode").value.toUpperCase();
+    let numberOffsetEncode = document.getElementById("number-offset-encode").valueAsNumber;
+    let cipherText = "";
 
     for (let i = 0; i <insertedTextEncode.length; i++){
-      const letterCodeChipher = (((insertedTextEncode[i].charCodeAt(0) - 65 + Number(numberOffsetEncode)) % 26) + 65);
-      const resultCipher = String.fromCharCode(letterCodeChipher);
+      let letterCodeChipher = (((insertedTextEncode[i].charCodeAt(0) - 65 + Number(numberOffsetEncode)) % 26) + 65);
+      let resultCipher = String.fromCharCode(letterCodeChipher);
       cipherText += resultCipher;
     }
-    document.getElementById("final-text-encode").innerHTML = cipherText;
+    alert(insertedTextEncode);
+    alert(numberOffsetEncode);
+    alert(cipherText);
+    //document.getElementById("final-text-decode").innerHTML = cipherText;
   }
 
   function decode() {
@@ -25,3 +32,6 @@ function encode () {
     }
     document.getElementById("final-text-decode").innerHTML = decipherText;
   }
+
+let encodeButton = document.getElementById("encode-button");
+encodeButton.addEventListener("click", encode);
