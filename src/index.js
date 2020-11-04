@@ -9,7 +9,8 @@
 
 function encode() {
     let insertedTextEncode = document.getElementById("inserted-text-encode").value.toUpperCase();
-    let numberOffsetEncode = document.getElementById("number-offset-encode").valueAsNumber;
+    let numberOffsetEncode = Number(document.getElementById("number-offset-encode").value);
+    //let numberOffsetEncode = selectOffsetEncode.options[selectOffsetEncode.selectedIndex].value;
     let cipherText = "";
 
     for (let i = 0; i <insertedTextEncode.length; i++){
@@ -17,10 +18,7 @@ function encode() {
       let resultCipher = String.fromCharCode(letterCodeChipher);
       cipherText += resultCipher;
     }
-    alert(insertedTextEncode);
-    alert(numberOffsetEncode);
-    alert(cipherText);
-    //document.getElementById("final-text-decode").innerHTML = cipherText;
+    document.getElementById("final-text-decode").innerHTML = cipherText;
   }
 
   function decode() {
