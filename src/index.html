@@ -11,11 +11,10 @@
         <h1>Mensagem Secreta!</h1>
       </div>
       <form>
-        <label for="inserted-text-encode">Escreva a mensagem para transformar em mensagem secreta!</label>
+        <label for="text-encode">Escreva a mensagem para transformar em mensagem secreta!</label>
         <input type="text" 
         id="inserted-text-encode" 
         placeholder="Escreva a mensagem" 
-        value="" 
         required/>
         <label for="number-offset-encode">Escolha um número</label>
         <select
@@ -47,7 +46,7 @@
           <option value=24">24</option>
           <option value=25">25</option>
         </select>
-        <button type="submit">Criar mensagem secreta</button>
+        <button id="encode-button" type="submit">Criar mensagem secreta</button>
       </form>
       <p id="final-text-encode"></p>
       <p>Anote o número mágico escolhido para enviar para os amigos junto com a mensagem secreta!</p>
@@ -88,7 +87,7 @@
           <option value=24">24</option>
           <option value=25">25</option>
         </select>
-        <button type="submit">Ler mensagem secreta</button>
+        <button id="decode-button" type="submit">Ler mensagem secreta</button>
       </form>
       <p id="final-text-decode"></p>
     </main>
