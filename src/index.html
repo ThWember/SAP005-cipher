@@ -19,6 +19,7 @@
             placeholder="Escreva a mensagem" 
             required/>
           </div>
+          <div class="offset-encode">
           <label for="number-offset-encode">Escolha um número</label>
           <select
           id="number-offset-encode"
@@ -50,9 +51,10 @@
             <option value=25>25</option>
           </select>
           <button id="encode-button" type="submit">Criar mensagem secreta</button>
+          </div>
         </form>
-        <p>Anote o número mágico escolhido para enviar para os amigos junto com a mensagem secreta!</p>
         <p id="final-text-encode"></p>
+        <p>Anote o número mágico escolhido para enviar para os amigos junto com a mensagem secreta!</p>
       </div>
       <div class="container-decode">
         <h2>Ler mensagem secreta</h2>
@@ -65,6 +67,7 @@
             value="" 
             required/>
           </div>
+          <div class="offset-decode">
           <label for="number-offset-decode">Escolha o número mágico enviado para ler a mensagem secreta!</label>
           <select
           id="number-offset-decode"
@@ -96,8 +99,10 @@
           <option value=25>25</option>
           </select>
           <button id="decode-button" type="submit">Ler mensagem secreta</button>
+          </div>
         </form>
         <p id="final-text-decode"></p>
+        <p>Agora é só responder!</p>
       </div>
     </main>
     <script src="index.js" type="module"></script>

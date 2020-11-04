@@ -14,18 +14,28 @@ h1 {
 main {
     display: flex;
     height: 100%;
+    justify-content: space-around;
 }
 
 input, select {
     font-family: 'Bangers', cursive;
-    margin: 5%;
 }
 
 .container-encode, .container-decode {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 16px;
     background-color: #fff459ea;
-    margin: 2%;
     border-radius: 10%;
+    width: 50%;
+    margin: 2%
+}
+
+.write-message, .read-message, .offset-encode, .offset-decode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
 }
