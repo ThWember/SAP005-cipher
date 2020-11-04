@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Bangers', cursive;
+    background-image: linear-gradient(#b33d5dbe, #3e96b3be) ;
 }
 
 h1 {
@@ -12,8 +13,19 @@ h1 {
 
 main {
     display: flex;
+    height: 100%;
 }
 
 input, select {
     font-family: 'Bangers', cursive;
+    margin: 5%;
+}
+
+.container-encode, .container-decode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff459ea;
+    margin: 2%;
+    border-radius: 10%;
 }
