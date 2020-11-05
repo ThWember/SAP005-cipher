@@ -67,24 +67,24 @@ JavaScript como ferramentas.
 
 ### HTML e CSS
 
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
+* [X] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+* [X] Uso de seletores de CSS.
 * [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
 
 ### DOM
 
-* [ ] Uso de seletores do DOM.
-* [ ] Manipular eventos do DOM.
-* [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+* [X] Uso de seletores do DOM.
+* [X] Manipular eventos do DOM.
+* [X] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
 
-* [ ] Manipulação de strings.
+* [X] Manipulação de strings.
 * [ ] Uso de condicionais (if-else | switch | operador ternário)
-* [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Declaração correta de variáveis (const & let)
+* [X] Uso de laços _(loops)_ (for | for..in | for..of | while)
+* [X] Uso de funções (parâmetros | argumentos | valor de retorno)
+* [X] Declaração correta de variáveis (const & let)
 
 ### Testing
 
@@ -93,18 +93,18 @@ JavaScript como ferramentas.
 ### Estrutura do código e guia de estilo
 
 * [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
+* [X] Uso de identificadores descritivos (Nomenclatura | Semântica)
+* [X] Uso de linter (ESLINT)
 
 ### Git e GitHub
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
+* [X] Uso de comandos de git (add | commit | pull | status | push)
+* [X] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
 
 ## 4. Considerações gerais
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
+* [X] Este projeto deve ser resolvido individualmente.
+* [ ] O projeto será entregue subindo o seu código no GitHub (commit/push) e o
   deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
   preocupe, você aprenderá durante o projeto.
 
@@ -112,27 +112,27 @@ JavaScript como ferramentas.
 
 Use o alfabeto simples (somente maiúsculas e sem ç):
 
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* [X] A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ### Definição do produto
 
 No README.md, escreva como você definiu seu usuário e qual foi o processo para
 definir o produto final a nível de expriência e interface.
 
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
+* [X] Quem são os principais usuário do produto?
+* [X] Quais são os objetivos do usuário em relação com o produto?
+* [X] Como você acredita que o produto está resolvendo os problemas do usuário?
 
 ### Interface do usuário (UI)
 
 A interface deve permitir ao usuário:
 
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
+* [X] Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
   quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
+* [X] Inserir uma mensagem (texto) para ser cifrada.
+* [X] Ver o resultado da mensagem cifrada.
+* [X] Inserir uma mensagem (texto) para ser decifrada.
+* [X]Ver o resultado da mensagem decifrada.
 
 ### Scripts / Arquivos
 
@@ -312,23 +312,23 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
   com o produto.
 * [ ] `README.md` explicar claramente como o produto soluciona os
   problemas/necessidades dos usuários.
-* [ ] Usar VanillaJS.
-* [ ] **Não** usar `this`.
+* [X] Usar VanillaJS.
+* [X] **Não** usar `this`.
 * [ ] Implementar `cipher.encode`.
 * [ ] Implementar `cipher.decode`.
-* [ ] Passar o linter com a configuração definida.
+* [X] Passar o linter com a configuração definida.
 * [ ] Passar as provas unitárias.
 * [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
-* [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
+* [X] Interface que permita escolher o `offset` (chave de deslocamento) usava
   para cifrar/decifrar.
-* [ ] Interface que permita escrever um texto para ser cifrado.
-* [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser decifrado.
-* [ ] Interface que mostre o resultado decifrado corretamente.
+* [X] Interface que permita escrever um texto para ser cifrado.
+* [X] Interface que mostre o resultado da cifra corretamente.
+* [X] Interface que permita escrever um texto para ser decifrado.
+* [X] Interface que mostre o resultado decifrado corretamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifrar/decifrar minúsculas.
+* [X] Cifrar/decifrar minúsculas.
 * [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
 * [ ] Permitir usar `offset` negativo.
