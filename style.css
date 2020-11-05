@@ -25,7 +25,7 @@ form {
 
 h2 {
     padding: 10px;
-    text-shadow: 3px 3px 3px #4db2ffbe;
+    text-shadow: 3px 3px 3px #4db2ffa1;
 }
 
 label {
@@ -42,7 +42,7 @@ input, select {
     align-items: center; 
     justify-content: space-around;
     padding: 16px;
-    background-color: #fff459ea;
+    background-color: #fff459;
     border-radius: 10%;
     width: 50%;
 }
