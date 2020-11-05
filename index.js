@@ -1,21 +1,23 @@
 let insertedTextEncode;
 let numberOffsetEncode;
 let cipherText = " ";
-let firstUnicode = 65;
+let upperFirstASC = 65;
+//let lowerFirstASC = 97;
 
 let insertedTextDecode;
 let numberOffsetDecode;
 let decipherText = " ";
-let lastUnicode = 90;
+let upperLastASC = 90;
+//let lowerLastASC = 122;
 
-let alphabetNumber = 26;
+let alphabetLength = 26;
 
 function encode() {
   insertedTextEncode = document.getElementById("inserted-text-encode").value.toUpperCase();
   numberOffsetEncode = Number(document.getElementById("number-offset-encode").value);
-
+//colocar if e else para tratar letras minúsculas e caracteres especiais
   for (let i = 0; i <insertedTextEncode.length; i++){
-    let letterCodeChipher = (((insertedTextEncode[i].charCodeAt(0) - firstUnicode + Number(numberOffsetEncode)) % alphabetNumber) + firstUnicode);
+    let letterCodeChipher = (((insertedTextEncode[i].charCodeAt(0) - upperFirstASC+ Number(numberOffsetEncode)) % alphabetLength) + upperFirstASC);
     let resultCipher = String.fromCharCode(letterCodeChipher);
     cipherText += resultCipher;
   }
@@ -31,7 +33,7 @@ function decode() {
   decipherText = " ";
 
   for (let i = 0; i <insertedTextDecode.length; i++){
-    const letterCodeDechipher = (((insertedTextDecode[i].charCodeAt(0) - lastUnicode - Number(numberOffsetDecode)) % alphabetNumber) + lastUnicode);
+    const letterCodeDechipher = (((insertedTextDecode[i].charCodeAt(0) - upperLastASC - Number(numberOffsetDecode)) % alphabetLength) + upperLastASC);
     const resultDecipher = String.fromCharCode(letterCodeDechipher);
     decipherText += resultDecipher;
   }
