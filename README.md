@@ -70,17 +70,17 @@ O primeiro passo para a definição do produto foi pensar qual seria a aplicaç�
 
 * Fluxograma de jornada do usuário
 
-![](/src/img/fluxograma)
+![](/src/img/fluxograma.png)
 
 O segundo passo foi desenhar um protótipo para melhor entendimento e visualização do produto final.
 
 * Protótipo do produto
- ![](/src/img/protótipo)
+ ![](/src/img/protótipo.png)
 
  Em seguida foi feita a definição da paleta de cores a ser utilizada na aplicação através do site [Adobe Color](https://color.adobe.com/pt/create/color-wheel). Por se tratar de um produto com o público alvo infantil a escolha foi por uma paleta colorida e que tornasse a aplicação mais chamativa.
 
  * Paleta de cores
- ![](/src/img/paleta-de-cores)
+ ![](/src/img/paleta-de-cores.png)
 
 
 ## 7. Considerações técnicas
@@ -99,4 +99,4 @@ A linguagem de programação utilizada pra o desenvolvimento foi JavaScript Vani
 
 A interface final da aplicação foi desenvolvida e aprimirada com o passar do desenvolvimento sendo entregue da seguinte forma:
 
-![](/src/img/interface)
+![](/src/img/interface.png)
