@@ -1,6 +1,6 @@
 // Importamos o objeto `cipher`, que contém os métodos `encode` e `decode`
 
-import cipher from '../src/cipher';
+import cipher from "../src/cipher";
 
 describe('cipher', () => {
 

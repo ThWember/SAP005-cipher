@@ -314,8 +314,8 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
   problemas/necessidades dos usuários.
 * [X] Usar VanillaJS.
 * [X] **Não** usar `this`.
-* [ ] Implementar `cipher.encode`.
-* [ ] Implementar `cipher.decode`.
+* [X] Implementar `cipher.encode`.
+* [X] Implementar `cipher.decode`.
 * [X] Passar o linter com a configuração definida.
 * [ ] Passar as provas unitárias.
 * [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
