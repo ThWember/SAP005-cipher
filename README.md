@@ -69,7 +69,7 @@ JavaScript como ferramentas.
 
 * [X] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
 * [X] Uso de seletores de CSS.
-* [ ] Construir uma aplicação respeitando o desenho realizado (protótipo).
+* [X] Construir uma aplicação respeitando o desenho realizado (protótipo).
 
 ### DOM
 
@@ -92,7 +92,7 @@ JavaScript como ferramentas.
 
 ### Estrutura do código e guia de estilo
 
-* [ ] Organizar e dividir o código em módulos (Modularização)
+* [X] Organizar e dividir o código em módulos (Modularização)
 * [X] Uso de identificadores descritivos (Nomenclatura | Semântica)
 * [X] Uso de linter (ESLINT)
 
